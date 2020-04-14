@@ -6,7 +6,7 @@ jobs:
   "test": &test
     docker:
       - image: circleci/golang:latest
-    working_directory: /go/src/github.com/gorilla/sessions
+    working_directory: /go/src/github.com/appbaseio/sessions
     steps: &steps
       - checkout
       - run: go version
@@ -19,7 +19,6 @@ jobs:
     <<: *test
     environment:
       LATEST: true
-
 
   "1.12":
     <<: *test
@@ -50,7 +49,6 @@ jobs:
     <<: *test
     docker:
       - image: circleci/golang:1.7
-
 
 workflows:
   version: 2

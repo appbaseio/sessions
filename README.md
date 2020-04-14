@@ -1,9 +1,9 @@
 # sessions
 
-[![GoDoc](https://godoc.org/github.com/gorilla/sessions?status.svg)](https://godoc.org/github.com/gorilla/sessions) [![Build Status](https://travis-ci.org/gorilla/sessions.svg?branch=master)](https://travis-ci.org/gorilla/sessions)
-[![Sourcegraph](https://sourcegraph.com/github.com/gorilla/sessions/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/sessions?badge)
+[![GoDoc](https://godoc.org/github.com/appbaseio/sessions?status.svg)](https://godoc.org/github.com/appbaseio/sessions) [![Build Status](https://travis-ci.org/appbaseio/sessions.svg?branch=master)](https://travis-ci.org/appbaseio/sessions)
+[![Sourcegraph](https://sourcegraph.com/github.com/appbaseio/sessions/-/badge.svg)](https://sourcegraph.com/github.com/appbaseio/sessions?badge)
 
-gorilla/sessions provides cookie and filesystem sessions and infrastructure for
+appbaseio/sessions provides cookie and filesystem sessions and infrastructure for
 custom session backends.
 
 The key features are:
@@ -24,7 +24,7 @@ Let's start with an example that shows the sessions API in a nutshell:
 ```go
 	import (
 		"net/http"
-		"github.com/gorilla/sessions"
+		"github.com/appbaseio/sessions"
 	)
 
 	// Note: Don't store your key in your source code. Pass it via an
